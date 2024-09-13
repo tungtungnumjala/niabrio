@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+#board{
+    background-image: url('mario.avif');
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+
+#btn{
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: gray;
+    color: white;
+}
+
